@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/master.css">
+  </head>
+  <body>
+
+    <div class="login-box">
+      <img src="img/logo.png" class="avatar" alt="Avatar">
+      <h1>Login</h1>
+      <form action="control/login.php" method="post">
+        <!-- USERNAME INPUT -->
+        <label for="username">Nombre de usuario</label>
+        <input type="text" name="userlog" placeholder="Enter Username" required>
+        <!-- PASSWORD INPUT -->
+        <label for="password">Contraseña</label>
+        <input type="password" name="passlog" placeholder="Enter Password" required>
+        <input type="submit" name="log" value="Entrar">
+        <a href="leerInvitado.php">Unirse como invitado</a>
+      </form>
+    </div>
+  </body>
+</html>
